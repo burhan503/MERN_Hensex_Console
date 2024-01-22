@@ -5,5 +5,5 @@ const userSchema = new mongoose.Schema({
     email:String,
     password:String
 })
-
+// Here we can create a Module for DB connection 
 module.exports = mongoose.model("users",userSchema);
