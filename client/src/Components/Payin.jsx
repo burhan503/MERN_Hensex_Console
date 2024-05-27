@@ -13,7 +13,7 @@ export default function PayIn() {
     // Simulate data fetching with a setTimeout
     setTimeout(() => {
       axios
-        .get('https://script.google.com/macros/s/AKfycbxC2DiANRSKO7piyHy-3cL9TpJWAJUjai19UC22R9QiHZi7wQdenDqvbPomth8UuBrDxw/exec?action=getDealer')
+        .get('link here ')
         .then((res) => {
           setGetData(res.data);
           setLoading(false);
