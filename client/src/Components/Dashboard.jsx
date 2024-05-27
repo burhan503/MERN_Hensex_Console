@@ -15,7 +15,7 @@ export default function Dashboard() {
         // Simulate data fetching with a setTimeout
         setTimeout(() => {
             axios
-                .get('https://script.google.com/macros/s/AKfycbyUHeOmDAFVnx9bvqZQMolyb37Bd0KFphqzxWGfaDDdwOaeIeYQzW0qZUHt5alXOQ6u8w/exec?action=getDealer')
+                .get('Link here ')
                 .then((res) => {
                     setMyData(res.data);
                     setLoading(false);
