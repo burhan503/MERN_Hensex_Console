@@ -13,7 +13,7 @@ export default function Dealer() {
     // Simulate data fetching with a setTimeout
     setTimeout(() => {
       axios
-        .get('https://script.google.com/macros/s/AKfycbzNSjJNpG1feCOBIbFtdcdKuQTEJNhhZ08--tvt6hFi98xnus93RkPYvV_jZUc5vLei/exec?action=getDealer')
+        .get('link here ')
         .then((res) => {
           setGetData(res.data);
           setLoading(false);
